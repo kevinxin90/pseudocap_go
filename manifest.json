@@ -1,0 +1,17 @@
+{
+    "version": "1.0",
+    "__metadata__": {
+        "license_url": "ftp://ftp.geneontology.org/go/gene-associations/",
+        "licence": "",
+        "url": "ftp://ftp.geneontology.org/go/gene-associations/"
+    },
+    "dumper": {
+        "data_url": "ftp://ftp.geneontology.org/go/gene-associations/gene_association.pseudocap.gz",
+        "uncompress": true,
+        "release": "version:get_release"
+    },
+    "uploader": {
+        "parser": "parser:load_data",
+        "on_duplicates": "error"
+    }
+}
